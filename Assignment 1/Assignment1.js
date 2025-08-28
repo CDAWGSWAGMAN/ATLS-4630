@@ -25,8 +25,9 @@ logoBtn.addEventListener("click", () => {
   }
 });
 
-const headline = document.getElementById("headline");
+
 //Event listener on key pressed
+const headline = document.getElementById("headline");
 document.addEventListener("keydown", (event) => {
   if (event.code === "Space") {
     event.preventDefault();
